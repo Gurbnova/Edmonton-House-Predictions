@@ -41,6 +41,5 @@ To run this project locally:
    pip install -r requirements.txt
 
 3. **Run the Project:**
-  
-   For Jupyter Notebook: jupyter notebook notebook_filename.ipynb
-   For Google Colab: Upload the notebook to Google Colab and run it there.
+   - For Jupyter Notebook: jupyter notebook notebook_filename.ipynb
+   - For Google Colab: Upload the notebook to Google Colab and run it there.
