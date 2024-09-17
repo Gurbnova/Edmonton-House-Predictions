@@ -1,3 +1,6 @@
+#git add .
+#git commit -m "Your commit message"
+#git push origin main
 import json
 import pickle
 import numpy as np
