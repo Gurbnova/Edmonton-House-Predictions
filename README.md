@@ -51,4 +51,4 @@ The original tutorial did not include a license file, so this repository does no
 # License
 This repository does not provide a license for the tutorial code. Please refer to the original tutorial’s terms for usage permissions.
 # Contact
-For any questions or further information, please contact me at gurbnova@ualberta.ca
+For any questions or further information, please contact me at gurbanova@ualberta.ca
