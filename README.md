@@ -5,8 +5,7 @@ This repository contains a modified version of a house price prediction project 
 
 ## Original Tutorial
 
-- **Tutorial URL:** https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7clOTtwsp94PcHbzqpAdg
-The code in this repository includes both modifications I made and the original tutorial code. The following applies:
+- **Tutorial URL:** [Open Source Tutorial on YouTube](https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7clOTtwsp94PcHbzqpAdg)
 
 - **My Contributions:** The modifications and original code I have added are licensed under the [ Apache 2.0 License](LICENSE).
 
