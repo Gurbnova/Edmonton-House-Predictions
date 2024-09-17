@@ -6,8 +6,9 @@ This repository contains a modified version of a house price prediction project 
 ## Original Tutorial
 
 - **Tutorial URL:** https://www.youtube.com/playlist?list=PLeo1K3hjS3uu7clOTtwsp94PcHbzqpAdg
-- **Original Dataset:** [Uploading bengaluru_house_prices.csv…]()
+The code in this repository includes both modifications I made and the original tutorial code. The following applies:
 
+- **My Contributions:** The modifications and original code I have added are licensed under the [ Apache 2.0 License](LICENSE).
 
 ## Modifications and Improvements
 
@@ -43,3 +44,11 @@ To run this project locally:
 3. **Run the Project:**
    - For Jupyter Notebook: `jupyter notebook notebook_filename.ipynb`
    - For Google Colab: Upload the notebook to Google Colab and run it there.
+
+## Notes
+The code is modified from an open-source tutorial. This repository is only for personal reference and documentation of the learning process.
+The original tutorial did not include a license file, so this repository does not provide a license for the tutorial code.
+# License
+This repository does not provide a license for the tutorial code. Please refer to the original tutorial’s terms for usage permissions.
+# Contact
+For any questions or further information, please contact me at gurbnova@ualberta.ca
