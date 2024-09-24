@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2022 Edmonton Home Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="img"></div>
+
+<header class="site-header">
+	<h1>Edmonton House Predictor for 2022</h1>
+  </header>
+
+<section class="hero">
+	<h2>Predicting Home Prices in Edmonton with Accuracy</h2>
+	<p>Enter your home details to get an accurate estimate for 2022.</p>
+	</section>
+
+<form class="form">
+	<h2>Area (Square Feet)</h2>
+
+    <input class="area"  type="text" id="uiSqft" class="floatLabel" name="Squareft" value="1000">
+
+	<h2>Bedroom</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-bedroom-1" name="uiBedrooms" value="1"/>
+		<label for="radio-bedroom-1">1</label>
+		<input type="radio" id="radio-bedroom-2" name="uiBedrooms" value="2" checked/>
+		<label for="radio-bedroom-2">2</label>
+		<input type="radio" id="radio-bedroom-3" name="uiBedrooms" value="3"/>
+		<label for="radio-bedroom-3">3</label>
+		<input type="radio" id="radio-bedroom-4" name="uiBedrooms" value="4"/>
+		<label for="radio-bedroom-4">4</label>
+		<input type="radio" id="radio-bedroom-5" name="uiBedrooms" value="5"/>
+		<label for="radio-bedroom-5">5</label>
+	</div>
+
+	</form>
+
+<form class="form">
+	<h2>Bath</h2>
+	<div class="switch-field">
+		<input type="radio" id="radio-bath-1" name="uiBathrooms" value="1"/>
+		<label for="radio-bath-1">1</label>
+		<input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked/>
+		<label for="radio-bath-2">2</label>
+		<input type="radio" id="radio-bath-3" name="uiBathrooms" value="3"/>
+		<label for="radio-bath-3">3</label>
+		<input type="radio" id="radio-bath-4" name="uiBathrooms" value="4"/>
+		<label for="radio-bath-4">4</label>
+		<input type="radio" id="radio-bath-5" name="uiBathrooms" value="5"/>
+		<label for="radio-bath-5">5</label>
+	</div>
+		<h2>Location</h2>
+	<div>
+  <select class="location" name="" id="uiLocations">
+    <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+		<option>Alberta Avenue</option>
+        <option>McKenran</option>
+  </select>
+</div>
+	<button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+	<div id="uiEstimatedPrice" class="result">	<h2></h2> </div>
+</body>
+</html>
