@@ -30,7 +30,7 @@ function getBedroomValue() {
     //var url = "/api/predict_home_price"; // Use this if  you are using nginx. i.e tutorial 8 and onwards
   
     $.post(url, {
-        total_sqft: parseFloat(sqft.value),
+        sqft: parseFloat(sqft.value),
         bedroom: bedrooms,
         bath: bathrooms,
         location: location.value
