@@ -26,7 +26,7 @@ This repository contains a modified version of a house price prediction project 
    - Made the project compatible with both Google Colab and Jupyter Notebook, enhancing its portability and usability across different environments.
 
 5. **User Interface Improvements:**
-   - Planned and implemented a new user interface to make the application more presentable and user-friendly. (Details on UI improvements to be added)
+   - Implemented a new user interface to make the application more presentable and user-friendly.
 
 ## Project Setup
 
